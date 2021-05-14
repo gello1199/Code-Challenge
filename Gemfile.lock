@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/bmabey/database_cleaner.git
-  revision: 9046980bd612e0d0a4e24e6a45a0fee20d5e5251
+  revision: 068656a246fcb56ab1385e7370b2740f5ebef5db
   specs:
     database_cleaner (2.0.1)
       database_cleaner-active_record (~> 2.0.0)
@@ -45,10 +45,12 @@ GEM
       concurrent-ruby (~> 1.0)
     method_source (1.0.0)
     mini_mime (1.1.0)
+    mini_portile2 (2.5.1)
     minitest (5.14.4)
     mustermann (1.1.1)
       ruby2_keywords (~> 0.0.1)
-    nokogiri (1.11.3-x86_64-darwin)
+    nokogiri (1.11.3)
+      mini_portile2 (~> 2.5.0)
       racc (~> 1.4)
     pry (0.14.1)
       coderay (~> 1.1)
@@ -113,7 +115,7 @@ GEM
       nokogiri (~> 1.8)
 
 PLATFORMS
-  x86_64-darwin-19
+  ruby
 
 DEPENDENCIES
   activerecord (~> 5.2, >= 5.2.6)
@@ -133,4 +135,4 @@ DEPENDENCIES
   tux
 
 BUNDLED WITH
-   2.2.11
+   2.1.4
