@@ -81,6 +81,27 @@
     margin-top: 20px;
     padding-top: 20px;
   }
+
+  #dog_container img {
+    border: 20px solid rgb(5, 5, 5);
+    height: auto;
+    width: 400px;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+  }
+
+  #dog_container {
+   background-color: lightslategray;
+   /* text-align: center; */
+   display: flex;
+  justify-content: space-between;
+  }  
+
+  #user_container {
+    text-decoration: underline;
+    background-color: lightcoral;
+  }
+
 }
 
 @media screen and (max-width: 600px) {
@@ -113,3 +134,4 @@
     line-height: 24px;
   }
 }
+
